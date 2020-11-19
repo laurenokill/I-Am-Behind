@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  .intro span {
+      background-color: rgba(185, 185, 185, 0.5);
+  }
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+  }
+
+  .row {
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .links {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
